@@ -16,7 +16,7 @@ const spawnedHistory = [];
 const spawner = document.getElementById('iconclick');
 
 const asciiContainer = document.querySelector('.bg-ascii-art');
-// Store your exact custom numeric layout as the frozen master template map string
+
 const originalAscii = asciiContainer.textContent;
 
 function scrambleMatrixNumbers() {
