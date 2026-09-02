@@ -7,7 +7,7 @@ const linkPool = [
   { iconFile: "spotify.svg", url: "https://open.spotify.com/artist/0HuC8TOrkGYxe1KVtPuEJJ" },
   { iconFile: "sc.svg", url: "https://soundcloud.com/shirovw" },
   { iconFile: "yt.svg", url: "https://youtube.com/shirovw" },
-
+  { iconFile: "bc.svg", url: "https://shirovw.bandcamp.com" }
 ];
 
 let globalClickCount = 0;
