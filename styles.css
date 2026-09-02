@@ -41,14 +41,67 @@ body {
   opacity: 0.7; /* Subtly softened transparency texture */
 }
 
+.miku-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
 .mikugif {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 150px; /* Adjust size as needed */
-  height: auto;
-  z-index: 5; /* Keeps it above the background elements but below active elements if needed */
-  pointer-events: none; /* Allows clicks to pass right through the GIF to your #iconclick layer */
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+.speech-bubble {
+    position: relative;
+    background: #ffffcc; 
+    border: 1px solid #000000; 
+    color: #000000;
+    padding: 10px 14px;
+    border-radius: 4px; 
+    font-family: "MS PGothic Web", sans-serif;
+    font-size: 0.8rem;
+    margin-bottom: 12px;
+    width: 180px;        
+    max-width: 180px;    
+    text-align: left;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.2s ease;
+}
+.speech-bubble::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 120px;          
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 8px solid #ffffcc;
+}
+
+.speech-bubble::before {
+    content: '';
+    position: absolute;
+    bottom: -9px;
+    left: 119px;         
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 9px solid #000000;
+    z-index: -1;
+}
+
+.speech-bubble.hidden {
+    opacity: 0;
+    pointer-events: none;
 }
 
 .bg {
