@@ -1,8 +1,16 @@
+@font-face {
+  font-family: "MS PGothic Web";
+  src: url("MS PGothic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; 
+}
+
 body {
   margin: 0;
   padding: 0;
   background-color: #ffffff;
-  font-family: "MS PGothic", "ＭＳ Ｐゴシック", "MS Gothic", "Osaka", sans-serif;
+  font-family: "MS PGothic Web", "MS PGothic", "ＭＳ Ｐゴシック", "MS Gothic", "Osaka", sans-serif;
   min-height: 100vh;
   display: flex;
   justify-content: center;
