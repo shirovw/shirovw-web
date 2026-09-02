@@ -1,13 +1,14 @@
 const linkPool = [
-{ iconFile: "latest.svg", url: "https://shirovw.fanlink.tv/blisspill" },
-{ iconFile: "show.svg", url: "upcomingshows.html" },
+  { iconFile: "latest.svg", url: "https://shirovw.fanlink.tv/blisspill" },
+  { iconFile: "show.svg", url: "upcomingshows.html" },
   { iconFile: "sphv.svg", url: "https://splitheaven.org" },
   { iconFile: "ig.svg", url: "https://instagram.com/shirovw_" },
   { iconFile: "twt.svg", url: "https://x.com/shirovw_" },
   { iconFile: "spotify.svg", url: "https://open.spotify.com/artist/0HuC8TOrkGYxe1KVtPuEJJ" },
   { iconFile: "sc.svg", url: "https://soundcloud.com/shirovw" },
   { iconFile: "yt.svg", url: "https://youtube.com/shirovw" },
-  { iconFile: "bc.svg", url: "https://shirovw.bandcamp.com" }
+  { iconFile: "bc.svg", url: "https://shirovw.bandcamp.com" },
+  { iconFile: "email.svg", url: "mailto:shirovw@outlook.com" }
 ];
 
 let globalClickCount = 0;
