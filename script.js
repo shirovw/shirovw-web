@@ -1,6 +1,6 @@
 const linkPool = [
   { iconFile: "latest.svg", url: "https://shirovw.fanlink.tv/blisspill" },
-  { iconFile: "show.svg", url: "upcomingshows.html" },
+  { iconFile: "show.svg", url: "upcomingshows" },
   { iconFile: "sphv.svg", url: "https://splitheaven.org" },
   { iconFile: "ig.svg", url: "https://instagram.com/shirovw_" },
   { iconFile: "twt.svg", url: "https://x.com/shirovw_" },
