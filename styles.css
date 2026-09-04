@@ -55,7 +55,9 @@ body {
     width: 150px;
     height: auto;
     cursor: pointer;
-    pointer-events: auto;
+    pointer-events: auto
+    transform: translateZ(0);
+    will-change: transform;;
 }
 
 .speech-bubble {
